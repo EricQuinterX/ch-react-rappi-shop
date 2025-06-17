@@ -1,5 +1,5 @@
 import logo from './../assets/logo_mini.png';
-import CartShopping from './CartShopping';
+import CartWidget from './CartShopping';
 
 const styles = {
   nav: {
@@ -24,7 +24,7 @@ const NavBar = () => {
           <div className="logo">
             <a className="navbar-brand" href="#">
               <img src={logo} alt="logo-chef" style={styles.logo} />
-              <span style={{ fontSize: 30 }}> Rappi Shop</span>
+              <span style={{ fontSize: 30 }}> Rappi Food</span>
             </a>
           </div>
           <button
@@ -44,22 +44,22 @@ const NavBar = () => {
               style={styles.ul}
             >
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Electrodomésticos
+                <a className="nav-link" href="/">
+                  Comidas
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Indumentaria
+                <a className="nav-link" href="/pedidos">
+                  Pedidos
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Gastronomía
+                <a className="nav-link" href="/about">
+                  About
                 </a>
               </li>
               <li className="nav-item">
-                <CartShopping />
+                <CartWidget />
               </li>
             </ul>
           </div>
