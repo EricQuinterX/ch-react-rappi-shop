@@ -1,5 +1,6 @@
 import logo from './../assets/logo_mini.png';
 import CartWidget from './CartShopping';
+import { NavLink, Link } from 'react-router';
 
 const styles = {
   nav: {
@@ -22,10 +23,10 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg" style={styles.nav}>
         <div className="container">
           <div className="logo">
-            <a className="navbar-brand" href="#">
+            <Link to="/" className="navbar-brand">
               <img src={logo} alt="logo-chef" style={styles.logo} />
               <span style={{ fontSize: 30 }}> Rappi Food</span>
-            </a>
+            </Link>
           </div>
           <button
             className="navbar-toggler"
@@ -44,19 +45,22 @@ const NavBar = () => {
               style={styles.ul}
             >
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Comidas
-                </a>
+                <NavLink to="/" className="nav-link">Home</NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink to="/foods" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Comidas</NavLink>
+                <ul className="dropdown-menu">
+                  <li><Link className="dropdown-item" to="/foods?q=parrilla">Parrilla</Link></li>
+                  <li><Link className="dropdown-item" to="/foods?q=aperitivo">Aperitivo</Link></li>
+                  <li><Link className="dropdown-item" to="/foods?q=pasta">Pasta</Link></li>
+                  <li><Link className="dropdown-item" to="/foods?q=postre">Postre</Link></li>
+                </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/pedidos">
-                  Pedidos
-                </a>
+                <NavLink to="/orders" className="nav-link">Pedidos</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">
-                  About
-                </a>
+                <NavLink to="/about" className="nav-link">About</NavLink>
               </li>
               <li className="nav-item">
                 <CartWidget />

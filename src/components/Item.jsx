@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Item = ({ item }) => {
   const { id, name, description, url } = item;
 
@@ -11,9 +13,9 @@ const Item = ({ item }) => {
           <a href="#" className="btn btn-primary">
             Agregar
           </a> 
-          <a href={`/food/${id}`} className="btn btn-primary" style={{ marginLeft: '10px' }}>
+          <Link to={`/food/${id}`} className="btn btn-primary" style={{ marginLeft: '10px' }}>
             Ver Info.
-          </a>
+          </Link>
         </div>
       </div>
     </div>

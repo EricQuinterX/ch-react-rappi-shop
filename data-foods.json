@@ -11,7 +11,8 @@
       "rateDown": 38,
       "creator": "Tomas.Lueilwitz93",
       "url": "https://content.cuerpomente.com/medio/2022/06/23/brocheta-de-verduras_6acf1875_1200x1200.jpg",
-      "id": "1"
+      "id": "1",
+      "category": "parrilla"
     },
     {
       "createdAt": "2024-07-31T04:49:11.539Z",
@@ -25,7 +26,8 @@
       "rateDown": 28,
       "creator": "Sigurd.Collier69",
       "url": "https://locosxlaparrilla.com/wp-content/uploads/2015/02/costillas-cerdo-marinada-macerar-parrilla-barbacoa-locosxlaparrilla.jpg",
-      "id": "2"
+      "id": "2",
+      "category": "parrilla"
     },
     {
       "createdAt": "2024-11-08T12:05:27.292Z",
@@ -39,7 +41,8 @@
       "rateDown": 64,
       "creator": "Nya.Kunde97",
       "url": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750138932192L2.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
-      "id": "3"
+      "id": "3",
+      "category": "aperitivo"
     },
     {
       "createdAt": "2025-02-15T23:32:56.483Z",
@@ -53,7 +56,8 @@
       "rateDown": 86,
       "creator": "Eli.Lakin83",
       "url": "https://comemascarnedecerdo.co/wp-content/uploads/2024/04/Wraps-1024x684-1.jpg",
-      "id": "4"
+      "id": "4",
+      "category": "aperitivo"
     },
     {
       "createdAt": "2024-07-20T06:40:06.199Z",
@@ -67,7 +71,8 @@
       "rateDown": 76,
       "creator": "Luther_Carroll",
       "url": "https://recetatipica.com/wp-content/uploads/2019/07/como-hacer-churrasco.jpg",
-      "id": "5"
+      "id": "5",
+      "category": "parrilla"
     },
     {
       "createdAt": "2025-03-14T03:53:46.498Z",
@@ -81,7 +86,8 @@
       "rateDown": 37,
       "creator": "Berry51",
       "url": "https://www.pequerecetas.com/wp-content/uploads/2010/10/pasta-carbonara-espaguetis-receta.jpg",
-      "id": "6"
+      "id": "6",
+      "category": "pasta"
     },
     {
       "createdAt": "2024-08-20T19:57:23.429Z",
@@ -95,7 +101,8 @@
       "rateDown": 4,
       "creator": "Emery.Stracke31",
       "url": "https://i.pinimg.com/736x/f5/76/5e/f5765e8d34423bc50d5e7595050e6d86.jpg",
-      "id": "8"
+      "id": "8",
+      "category": "pasta"
     },
     {
       "createdAt": "2024-05-25T08:14:27.178Z",
@@ -109,7 +116,8 @@
       "rateDown": 35,
       "creator": "Abigail_Feeney21",
       "url": "https://www.petitchef.es/imgupl/recipe/espaguetis-negros-con-gambas-al-ajillo--171742p256153.jpg",
-      "id": "9"
+      "id": "9",
+      "category": "pasta"
     },
     {
       "createdAt": "2024-09-12T02:19:08.670Z",
@@ -123,7 +131,8 @@
       "rateDown": 47,
       "creator": "Deion22",
       "url": "https://www.manzanaroja.eu/wp-content/uploads/2018/05/imagen-evidenciafo.jpg",
-      "id": "10"
+      "id": "10",
+      "category": "pasta"
     },
     {
       "createdAt": "2025-04-17T14:45:19.327Z",
@@ -137,7 +146,8 @@
       "rateDown": 16,
       "creator": "Reggie_Nikolaus",
       "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3p3iLtp1np3r2kx2Cc-Uwts1e40sqXxCNCkG9gvAqm1NfnVI7VEC7g0wgIxdpRTqCIBAq9g-PdPVVvRU-iPBbYlftErpWBNSa_gJZBwD_4FeNRYcFZkcTHuG6QQkMpIqysetHGU_1KlLX/s1600/tallarines+con+nueces.jpg",
-      "id": "11"
+      "id": "11",
+      "category": "pasta"
     },
     {
       "createdAt": "2025-04-24T21:34:39.943Z",
@@ -151,7 +161,8 @@
       "rateDown": 38,
       "creator": "Tevin_Ortiz35",
       "url": "https://www.tapasmagazine.es/wp-content/uploads/2018/11/ramen.jpg",
-      "id": "12"
+      "id": "12",
+      "category": "pasta"
     },
     {
       "createdAt": "2024-12-27T04:19:12.155Z",
@@ -165,7 +176,8 @@
       "rateDown": 54,
       "creator": "Samson_Donnelly",
       "url": "https://lossaboresdemexico.com/wp-content/uploads/2018/07/dish-meal-food-produce-breakfast-meat-1204269-pxhere.com_.jpg",
-      "id": "13"
+      "id": "13",
+      "category": "pasta"
     },
     {
       "createdAt": "2024-12-03T18:51:18.735Z",
@@ -179,7 +191,8 @@
       "rateDown": 72,
       "creator": "Ned.Stanton",
       "url": "https://www.kikkoman.eu/fileadmin/_processed_/6/c/csm_1107-recipe-page-Mexican-ramen_desktop_a1f84aa407.webp",
-      "id": "14"
+      "id": "14",
+      "category": "pasta"
     },
     {
       "createdAt": "2024-06-01T01:37:55.896Z",
@@ -193,7 +206,8 @@
       "rateDown": 49,
       "creator": "Coy82",
       "url": "https://losfoodistas.com/wp-content/uploads/2017/01/raman-algas.png",
-      "id": "15"
+      "id": "15",
+      "category": "pasta"
     },
     {
       "createdAt": "2025-05-08T07:51:15.653Z",
@@ -207,7 +221,8 @@
       "rateDown": 24,
       "creator": "Kristy_Hermann41",
       "url": "https://enrilemoine.com/wp-content/uploads/2011/05/1-IMG_0248.jpg",
-      "id": "16"
+      "id": "16",
+      "category": "postre"
     },
     {
       "createdAt": "2024-06-27T20:38:15.114Z",
@@ -221,7 +236,8 @@
       "rateDown": 80,
       "creator": "Mike_Murazik",
       "url": "https://alfredosbistro.com/wp-content/uploads/b-helado.jpg",
-      "id": "17"
+      "id": "17",
+      "category": "postre"
     },
     {
       "createdAt": "2025-03-28T15:25:50.991Z",
@@ -235,7 +251,8 @@
       "rateDown": 21,
       "creator": "Tatum.Kiehn64",
       "url": "https://cdn.buenavibra.es/wp-content/uploads/2016/07/06194538/choctorta-1200.jpg",
-      "id": "18"
+      "id": "18",
+      "category": "postre"
     },
     {
       "createdAt": "2025-01-09T12:55:05.725Z",
@@ -249,7 +266,8 @@
       "rateDown": 26,
       "creator": "Santos.Gerhold15",
       "url": "https://static.wooweb.site/media/sites/16/2017/02/p_3_6_36-Torta-de-Chocolate-300x300.jpg",
-      "id": "19"
+      "id": "19",
+      "category": "postre"
     },
     {
       "createdAt": "2024-12-13T18:05:24.039Z",
@@ -263,6 +281,7 @@
       "rateDown": 94,
       "creator": "Rebeca_Parker5",
       "url": "https://delination.com/wp-content/uploads/2023/09/gofres-salsa-caramelo-helado-bayas-frescas-sobre-mesa-madera-ai-generativo-850x550.jpg",
-      "id": "20"
+      "id": "20",
+      "category": "postre"
     }
   ]
