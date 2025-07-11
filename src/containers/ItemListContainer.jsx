@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import ItemList from '../components/ItemList';
 import { useSearchParams } from 'react-router';
-
-const API = 'https://681dfe79c1c291fa6632903b.mockapi.io/api/v1';
+import { getFoods, getFoodsByCategory } from '../firebase';
 
 const ItemListContainer = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -12,15 +11,14 @@ const ItemListContainer = () => {
   const query = searchParams.get('q');
 
   const loadItems = async (query) => {
-    const endpoint = (query === undefined || query === null || query === '') ? 'foods' : `foods?category=${query}`;
-    setIsLoading(true);
-    const foods = await fetch(`${API}/${endpoint}`)
-      .then(response => response.json())
-      .catch(error => console.error('Error fetching items:', error))
-      .finally(() => {
-        setIsLoading(false);
-      });
-    setFoods(foods);
+    const promesa = query === undefined || query === null || query === '' ? getFoods() : getFoodsByCategory(query);
+    promesa.then((data) => {
+      setFoods(data);      
+    }).catch((error) => {
+      console.error('Error fetching items:', error);
+    }).finally(() => {
+      setIsLoading(false);
+    });
   };
 
   useEffect(() => {

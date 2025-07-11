@@ -6,7 +6,7 @@ const ItemList = (props) => {
     <div className="row">
       {props.list.map(e => (
         <Item key={e.id} item={e} />
-      ))}
+      ))} 
     </div>
   );
 };

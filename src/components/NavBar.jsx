@@ -1,5 +1,5 @@
 import logo from './../assets/logo_mini.png';
-import CartWidget from './CartShopping';
+import CartWidget from './CartWidget';
 import { NavLink, Link } from 'react-router';
 
 const styles = {
